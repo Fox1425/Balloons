@@ -19,7 +19,38 @@
 
     <p class="introduction">Get in touch with us by email or phone:</p>
     <p><a href="mailto:balloons@example.com"> send us an email:</a></p>
-    <p>phone us: </p>
+    <p><a href="tel:+353861234567"> Call us:</a></p>
+
+
+    <!-- put in required to make it essential -->
+    <form action="">
+        <div class="form-control">
+            <label for="forename"> Your first name: </label>
+            <input id="forename" required type="text" name="firstName" placeholder="Forename" />
+        </div>
+
+        <div class="form-control">
+            <label for="lastname"> Your Surname: </label>
+            <input id="lastname" required type="text" name="surName" placeholder="Surname" />
+        </div>
+
+        <div class="form-control">
+            <label for="email"> Your Email: </label>
+            <input id="email" required type="email" name="emailAddress" placeholder="Email" />
+        </div>
+
+        <div class="form-control">
+            <label for="age"> Your Age: </label>
+            <input id="age" required type="number" name="userAge" min="1" max="150" placeholder="Age" />
+        </div>
+
+        <div class="form-control">
+            <label for="comments"> Please enter your comments below: </label>
+            <textarea id="comments" placeholder="Comments" name="comments"></textarea>
+        </div>
+
+        <input type="submit" value="Go!"/>
+    </form>
     
 </body>
 </html>

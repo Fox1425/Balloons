@@ -131,3 +131,27 @@ h1.highlight{
     font-weight: bold;
 
 } */
+
+label, input, textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form{
+    width: 30em;
+}
+
+.form-control{
+    margin-bottom: 1em;
+}
+
+/* extend starting height */
+textarea {
+    min-height: 10em;
+}
+
+/* why the descendant selector here? */
+.form-control input, .form-control textarea{
+    padding: 0.5em; /* More space to write inside the boxes */
+}
