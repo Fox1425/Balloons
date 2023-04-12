@@ -1,0 +1,133 @@
+.navigation{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    background-color: #D9EECE;
+    /* border: 1px solid #4c0072; */
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    
+    /* border-bottom: #4C0072;
+    border-right: #4C0072;
+    border-left: #4C0072; */
+
+    border-color: #4C0072; 
+    /* border: 1px solid; */
+    display: flex;
+    
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #226800;
+    font-weight: bold;
+    padding: 0.75em 1em;
+    margin: 0em;
+}
+
+.navigation a :hover {
+    background-color: #C4E881;
+}
+
+
+h1{
+    font-size: 3em;
+    color: #660099;
+    font-weight: 400;
+    font-family: "Courier New", Courier, monospace;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: #4c0072; 
+    this is equivalent to*/
+    border: 1px solid #4c0072;
+    background-color: #f0e6f5;
+    padding: 0.5em;
+    margin: 0em;
+
+}
+
+h2{
+    font-size: 1.5em;
+    /* color: #99007f; */
+    font-style: italic;
+    background-color: #f0e6f5;
+    padding: 0.25em, 0.5em;
+}
+
+h3{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 0.25em;
+}
+
+/* p{
+    color: #555555;
+} */
+
+/* h2, p{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* em{
+    font-style: normal;
+}
+strong{ 
+    font-weight: normal;
+} */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555555;
+}
+
+h2, h3, h4 { 
+    color: #99007f;    
+}
+
+ul{
+    list-style-type: square;
+}
+
+/* ol{
+    list-style-type: lower-roman;
+} */
+
+.introduction{
+    font-size: 1.5em;
+    color: #72005f;
+    font-style: italic;
+}
+
+/* a:link{
+    color: #609;
+}
+
+a:hover{
+    color: #339900;
+}
+
+a:visited{
+    color: #0000ff;
+} */
+
+
+/* .highlight{
+    color: #ff6600
+}
+you can reuse styles on different elements 
+
+.special{
+    font-size: 2em;
+    color: #00e56f;
+    font-style: italic;
+
+}
+
+p.highlight{
+    font-weight: bold;
+}
+
+h1.highlight{
+    font-weight: bold;
+
+} */
